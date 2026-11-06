@@ -1,0 +1,15 @@
+:root { color-scheme: dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; padding: 32px 16px; background: radial-gradient(circle at 15% 5%, #274b45, #111827 52%, #0a101a); color: #f3f6f5; line-height: 1.65; }
+.card { max-width: 760px; margin: 0 auto; padding: clamp(24px, 5vw, 56px); border: 1px solid #37504d; border-radius: 24px; background: #17232bdd; box-shadow: 0 20px 60px #050b12aa; }
+.eyebrow { margin: 0 0 12px; color: #71d3ac; font-size: 0.83rem; font-weight: 800; letter-spacing: 0.18em; }
+h1 { margin: 0 0 18px; font-size: clamp(2.2rem, 6vw, 4rem); line-height: 1.1; }
+h2 { margin: 0 0 8px; font-size: 1.25rem; }
+.lead { font-size: 1.1rem; color: #d8e5e1; }
+section { margin-top: 36px; }
+p { margin: 0 0 14px; }
+a { color: #95e7c1; }
+.button { display: inline-block; margin-top: 16px; padding: 12px 20px; border-radius: 12px; background: #66d8a1; color: #102119; font-weight: 800; text-decoration: none; }
+.button:hover { background: #a0f1c6; }
+footer { display: flex; flex-wrap: wrap; gap: 12px 22px; margin-top: 46px; padding-top: 20px; border-top: 1px solid #3b4d52; font-size: 0.95rem; }
+code { overflow-wrap: anywhere; }
